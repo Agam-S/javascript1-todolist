@@ -1,0 +1,37 @@
+body {
+    background-color: aqua;
+    text-align: center;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.List {
+    text-align: center;
+    float:inherit;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 20%;
+    font-size: 20px;
+}
+
+ul li:nth-child() {
+    background: #f9f9f9;
+
+}
+ul li:hover {
+    background: #ddd;
+
+}
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li.checked::before {
+    background: aqua;
+    border-style: solid;
+    color: black;
+}
